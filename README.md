@@ -351,29 +351,43 @@ Each feature is organized around its own business responsibility, keeping the co
 
 ## ⚙️ Engineering Highlights
 
-- Feature-based Clean Architecture
-- Cubit-based state management
-- Repository pattern with clear domain contracts
-- Dependency injection using GetIt
-- RESTful API integration using Dio
-- Centralized API error handling
-- Secure authentication token storage
-- Persistent authentication sessions
-- JSON serialization and model mapping
-- Arabic / English localization
-- Light / Dark theme support
-- Responsive layouts using ScreenUtil
-- Skeleton loading and shimmer effects
-- Cached network images
-- Reusable custom UI components
-- Form validation and user input handling
-- Multi-step booking workflow
-- Payment receipt image upload
-- Booking status tracking
-- Pull-to-refresh interactions
-- Empty / Loading / Failure / Success states
+### 🏗 Architecture & State Management
 
----
+- **Clean Architecture** with feature-based modular structure
+- **Cubit** for predictable and reactive state management
+- **Repository Pattern** with clear domain-level contracts
+- **Dependency Injection** using GetIt
+- Separation of presentation, domain, and data responsibilities
+
+### 🌐 Networking & Data
+
+- **RESTful API** integration using Dio
+- Centralized API error handling
+- JSON serialization and model mapping
+- Secure authentication token management
+- Persistent authentication sessions
+- Multipart requests for payment receipt uploads
+
+### 🎨 UI & User Experience
+
+- Responsive layouts using **Flutter ScreenUtil**
+- Light / Dark theme support
+- Arabic / English localization with RTL support
+- Reusable custom UI components
+- Cached network images
+- Skeleton loading and shimmer effects
+- Smooth loading, empty, failure, and success states
+- Pull-to-refresh interactions
+- Form validation and user input handling
+
+### 📅 Booking & Business Logic
+
+- Multi-step booking workflow
+- Date selection and availability handling
+- Booking summary and price calculation
+- Payment receipt submission
+- Booking status tracking
+- Favorites management
 
 ## 🔐 Security & Persistence
 
