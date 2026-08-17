@@ -468,25 +468,6 @@ feature/
 
 This structure keeps business logic separated from UI implementation and external data sources, making the application easier to maintain and extend.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK
-- Dart SDK
-- Android Studio / VS Code
-- Android Emulator or physical device
-
-### Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd marsa
-flutter pub get
-flutter run
-```
-
----
 
 ## 🐦 Shorebird
 
@@ -517,6 +498,8 @@ This allows eligible Flutter code changes to be delivered through patches withou
 - [ ] Push notifications
 - [ ] Additional payment integrations
 - [ ] Further performance improvements
+- [ ] Google Play release
+- [ ] Apple App Store release
 
 ## 👨‍💻 Author
 
@@ -524,8 +507,14 @@ This allows eligible Flutter code changes to be delivered through patches withou
 
 Flutter Developer
 
-- GitHub: [KarimTamer74](https://github.com/KarimTamer74)
-- LinkedIn: [LinkedIn](http://www.linkedin.com/in/karim-tamer74)
+<p align="left">
+  <a href="https://github.com/KarimTamer74">
+    <img src="https://img.shields.io/badge/GitHub-KarimTamer74-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/karim-tamer74">
+    <img src="https://img.shields.io/badge/LinkedIn-Karim%20Tamer-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
 
 ## 📄 License
 
