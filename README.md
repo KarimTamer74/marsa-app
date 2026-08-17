@@ -213,9 +213,11 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 |:---:|:---:|:---:|
 | <img src="docs/screenshots/home_loading_light.png" width="250"> | <img src="docs/screenshots/home4_light.png" width="250"> | <img src="docs/screenshots/home3_light.png" width="250"> |
 
-| Filteration Light | Filteration Dark |
-|:---:|:---:|
-| <img src="docs/screenshots/filter2_light.png" width="250"> | <img src="docs/screenshots/filter2_dark.png" width="250"> |
+<p align="center">
+  <img src="docs/screenshots/filter1_light.png" width="250"> |
+<img src="docs/screenshots/filter_dark.png" width="250">|
+<img src="docs/screenshots/filter3_light.png" width="250">
+</p>
 
 ---
 
