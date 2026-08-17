@@ -484,12 +484,39 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 cd marsa
 flutter pub get
 flutter run
+```
+
+---
 
 ## 🐦 Shorebird
 
 Marsa is integrated with **Shorebird** for over-the-air Flutter updates.
 
 This allows eligible Flutter code changes to be delivered through patches without requiring a full application release for every update.
+
+
+## 🗺 Roadmap
+
+### Completed
+
+- [x] Authentication
+- [x] Home & unit discovery
+- [x] Unit details
+- [x] Favorites
+- [x] Multi-step booking flow
+- [x] Payment receipt upload
+- [x] Booking status tracking
+- [x] Profile management
+- [x] Arabic / English localization
+- [x] Light / Dark theme
+- [x] Skeleton & shimmer loading
+- [x] Shorebird integration
+
+### Planned
+
+- [ ] Push notifications
+- [ ] Additional payment integrations
+- [ ] Further performance improvements
 
 ## 👨‍💻 Author
 
@@ -499,3 +526,7 @@ Flutter Developer
 
 - GitHub: [KarimTamer74](https://github.com/KarimTamer74)
 - LinkedIn: [LinkedIn](http://www.linkedin.com/in/karim-tamer74)
+
+## 📄 License
+
+This project is currently intended for portfolio and demonstration purposes.
