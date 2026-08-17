@@ -12,6 +12,14 @@
   Flutter • Dart • Clean Architecture • BLoC/Cubit • REST API
 </p>
 
+<p align="center">
+  <a href="#-screenshots">📸 View Screenshots</a>
+  &nbsp; • &nbsp;
+  <a href="#-features">✨ Features</a>
+  &nbsp; • &nbsp;
+  <a href="#-architecture">🏗 Architecture</a>
+</p>
+
 ---
 
 ## 📱 About
@@ -41,7 +49,7 @@ The application is built with a focus on **clean architecture, maintainable code
 
 ---
 
-### 🏠 Home
+### 🏠 Home & Discovery
 
 The home screen provides multiple sections to help users discover available units:
 
@@ -138,6 +146,7 @@ Features include:
 - Empty state handling
 - Loading states
 - Failure and retry states
+- Pull-to-refresh
 
 ---
 
@@ -168,7 +177,7 @@ Features include:
 - View profile information
 - Update profile information
 - Theme switching
-- Localization
+- Arabic / English localization
 - Logout
 - Persistent authentication session
 
@@ -178,11 +187,12 @@ Features include:
 
 Marsa focuses on providing a clean, responsive, and consistent mobile experience.
 
-### Implemented UI features
+### Implemented UI Features
 
 - Responsive layouts
 - Light / Dark theme
 - Arabic / English localization
+- RTL support
 - Reusable widgets
 - Custom UI components
 - Empty states
@@ -190,23 +200,26 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 - Loading states
 - Skeleton loading
 - Shimmer effects
+- Cached network images
 - Smooth animations
 - Custom splash screen
 - Custom application icon
+- Pull-to-refresh interactions
 
 ---
 
 # 📸 Screenshots
 
-> Add your application screenshots inside `docs/screenshots/` and update the filenames below if needed.
+> Screenshots showcase the main application flows, UI states, booking experience, and user features.
 
-## Authentication
+## 🔐 Authentication
 
 | Login | Register |
 |:---:|:---:|
 | <img src="docs/screenshots/login_light.png" width="250"> | <img src="docs/screenshots/register_light.png" width="250"> |
 
 ---
+
 ## 🏠 Home & Discovery
 
 | Loading | Home | Units |
@@ -223,12 +236,12 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ---
 
-## Unit Details
+## 🏡 Unit Details
 
 <p align="center">
-  <img src="docs/screenshots/details1_dark.png" width="250"> |
-<img src="docs/screenshots/details2_dark.png" width="250">|
-<img src="docs/screenshots/details3_light.png" width="250">
+  <img src="docs/screenshots/details1_dark.png" width="250">
+  <img src="docs/screenshots/details2_dark.png" width="250">
+  <img src="docs/screenshots/details3_light.png" width="250">
 </p>
 
 ---
@@ -245,9 +258,9 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ---
 
-## User Features
+## 👤 User Features
 
-## ❤️ Favorites
+### ❤️ Favorites
 
 | Empty State | Loading State | Favorites List |
 |:---:|:---:|:---:|
@@ -255,7 +268,7 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ---
 
-## 📋 My Appointments
+### 📋 My Appointments
 
 | All Appointments | Completed | Cancelled |
 |:---:|:---:|:---:|
@@ -263,7 +276,7 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ---
 
-## 👤 Profile
+### 👤 Profile
 
 | Profile | Edit Profile | Theme |
 |:---:|:---:|:---:|
@@ -275,7 +288,7 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 Marsa follows **Clean Architecture** with a feature-based project structure.
 
-The application is separated into three main layers:
+The application is organized into three main layers:
 
 ```text
 ┌──────────────────────────────┐
@@ -287,7 +300,7 @@ The application is separated into three main layers:
                │
                ▼
 ┌──────────────────────────────┐
-│           Domain             │
+│            Domain            │
 │                              │
 │ Entities • Use Cases         │
 │ Repository Contracts         │
@@ -295,7 +308,7 @@ The application is separated into three main layers:
                │
                ▼
 ┌──────────────────────────────┐
-│            Data              │
+│             Data             │
 │                              │
 │ API • Models • Data Sources  │
 │ Repository Implementations   │
@@ -303,5 +316,186 @@ The application is separated into three main layers:
                │
                ▼
 ┌──────────────────────────────┐
-│          REST API            │
+│           REST API           │
 └──────────────────────────────┘
+```
+
+Each feature is organized around its own business responsibility, keeping the codebase modular, maintainable, and easier to scale.
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|:---|:---|
+| Framework | Flutter |
+| Language | Dart |
+| Architecture | Clean Architecture |
+| State Management | BLoC / Cubit |
+| Networking | Dio |
+| Dependency Injection | GetIt |
+| Local Storage | SharedPreferences |
+| Secure Storage | Flutter Secure Storage |
+| Serialization | JSON / JsonSerializable |
+| Functional Programming | Dartz |
+| Localization | Easy Localization |
+| Responsive UI | Flutter ScreenUtil |
+| UI Loading | Skeletonizer / Shimmer |
+| Calendar | Table Calendar |
+| Image Handling | Cached Network Image / Image Picker |
+| Navigation | Persistent Bottom Navigation Bar |
+| Animations | Flutter Animate / Animate Do / Lottie |
+| Release Updates | Shorebird |
+
+---
+
+## ⚙️ Engineering Highlights
+
+- Feature-based Clean Architecture
+- Cubit-based state management
+- Repository pattern with clear domain contracts
+- Dependency injection using GetIt
+- RESTful API integration using Dio
+- Centralized API error handling
+- Secure authentication token storage
+- Persistent authentication sessions
+- JSON serialization and model mapping
+- Arabic / English localization
+- Light / Dark theme support
+- Responsive layouts using ScreenUtil
+- Skeleton loading and shimmer effects
+- Cached network images
+- Reusable custom UI components
+- Form validation and user input handling
+- Multi-step booking workflow
+- Payment receipt image upload
+- Booking status tracking
+- Pull-to-refresh interactions
+- Empty / Loading / Failure / Success states
+
+---
+
+## 🔐 Security & Persistence
+
+Authentication credentials are handled using secure local storage.
+
+Implemented:
+
+- Secure access token storage
+- Persistent authentication sessions
+- Authentication state restoration
+- Secure logout flow
+- Local user data persistence
+
+---
+
+## 🌍 Localization & Theming
+
+Marsa supports a localized and customizable user experience.
+
+### Localization
+
+- Arabic 🇪🇬
+- English 🇬🇧
+- Localized validation messages
+- Localized UI text
+- RTL support for Arabic
+
+### Theming
+
+- Light Mode
+- Dark Mode
+- Centralized color system
+- Centralized typography
+- Reusable theme components
+
+---
+
+## ⚡ Loading & Error Handling
+
+Marsa provides dedicated UI states for different application conditions:
+
+- Skeleton loading
+- Shimmer effects
+- Empty states
+- Failure states
+- Retry actions
+- Pull-to-refresh
+- Loading indicators
+- API error feedback
+- Form validation feedback
+
+---
+
+## 📂 Project Structure
+
+The project follows a feature-based structure with shared application infrastructure inside `core`.
+
+```text
+lib/
+├── core/
+│   ├── common/
+│   ├── constants/
+│   ├── cubit/
+│   ├── entities/
+│   ├── extensions/
+│   ├── helpers/
+│   ├── routing/
+│   ├── services/
+│   ├── theme/
+│   └── utils/
+│
+├── features/
+│   ├── auth/
+│   ├── booking/
+│   ├── favorites/
+│   ├── profile/
+│   ├── units/
+│   ├── onboarding/
+│   └── splash/
+│
+└── main.dart
+```
+
+Each feature is organized around its own business responsibility and can contain:
+
+```text
+feature/
+├── data/
+├── domain/
+└── presentation/
+```
+
+This structure keeps business logic separated from UI implementation and external data sources, making the application easier to maintain and extend.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Dart SDK
+- Android Studio / VS Code
+- Android Emulator or physical device
+
+### Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd marsa
+flutter pub get
+flutter run
+
+## 🐦 Shorebird
+
+Marsa is integrated with **Shorebird** for over-the-air Flutter updates.
+
+This allows eligible Flutter code changes to be delivered through patches without requiring a full application release for every update.
+
+## 👨‍💻 Author
+
+**Karim Tamer**
+
+Flutter Developer
+
+- GitHub: [KarimTamer74](https://github.com/KarimTamer74)
+- LinkedIn: [LinkedIn](http://www.linkedin.com/in/karim-tamer74)
