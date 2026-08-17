@@ -1,7 +1,7 @@
 # ⚓ Marsa
 
 <p align="center">
-  <img src="assets/images/marsa_app_icon.png" width="120" alt="Marsa App Icon">
+  <img src="docs/screenshots/marsa_app_icon.png" width="120" alt="Marsa App Icon">
 </p>
 
 <h3 align="center">
@@ -204,26 +204,27 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 | Login | Register |
 |:---:|:---:|
-| <img src="docs/screenshots/login.png" width="250"> | <img src="docs/screenshots/register.png" width="250"> |
+| <img src="docs/screenshots/login_light.png" width="250"> | <img src="docs/screenshots/register_light.png" width="250"> |
 
 ---
 
 ## Home & Discovery
 
-| Home | Categories |
+| Home | Filteration |
 |:---:|:---:|
-| <img src="docs/screenshots/home.png" width="250"> | <img src="docs/screenshots/categories.png" width="250"> |
+| <img src="docs/screenshots/home4_light.png" width="250"> | <img src="docs/screenshots/filter2_light.png" width="250"> |
 
 | Featured Units | Units Under 1000 |
 |:---:|:---:|
-| <img src="docs/screenshots/featured.png" width="250"> | <img src="docs/screenshots/priced_units.png" width="250"> |
+| <img src="docs/screenshots/home_light.png" width="250"> | <img src="docs/screenshots/home3_light.png" width="250"> |
 
 ---
 
 ## Unit Details
 
 <p align="center">
-  <img src="docs/screenshots/unit_details.png" width="280">
+  <img src="docs/screenshots/details1_dark.png" width="250"> |
+<img src="docs/screenshots/details2_dark.png" width="250">
 </p>
 
 ---
@@ -232,11 +233,11 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 | Date Selection | Booking Summary |
 |:---:|:---:|
-| <img src="docs/screenshots/booking_dates.png" width="250"> | <img src="docs/screenshots/booking_summary.png" width="250"> |
+| <img src="docs/screenshots/date_step_light.png" width="250"> | <img src="docs/screenshots/summary_step_dark.png" width="250"> |
 
 | Payment | Confirmation |
 |:---:|:---:|
-| <img src="docs/screenshots/payment.png" width="250"> | <img src="docs/screenshots/booking_confirmation.png" width="250"> |
+| <img src="docs/screenshots/payment_step2_dark.png" width="250"> | <img src="docs/screenshots/appointment_done_light.png" width="250"> |
 
 ---
 
@@ -244,11 +245,11 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 | Favorites | My Appointments |
 |:---:|:---:|
-| <img src="docs/screenshots/favorites.png" width="250"> | <img src="docs/screenshots/appointments.png" width="250"> |
+| <img src="docs/screenshots/fav_dark.png" width="250"> | <img src="docs/screenshots/all_appointments_dark.png" width="250"> |
 
 | Profile | Dark Mode |
 |:---:|:---:|
-| <img src="docs/screenshots/profile.png" width="250"> | <img src="docs/screenshots/dark_mode.png" width="250"> |
+| <img src="docs/screenshots/profile_light.png" width="250"> | <img src="docs/screenshots/theme_light.png" width="250"> |
 
 ---
 
