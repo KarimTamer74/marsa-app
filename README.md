@@ -210,13 +210,13 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ## Home & Discovery
 
-| Home | Filteration |
+| Loading | Home | Units |
 |:---:|:---:|
-| <img src="docs/screenshots/home4_light.png" width="250"> | <img src="docs/screenshots/filter2_light.png" width="250"> |
+| <img src="docs/screenshots/home_loading_light.png" width="250"> | <img src="docs/screenshots/home4_light.png" width="250"> |<img src="docs/screenshots/home3_light.png" width="250"> |
 
-| Featured Units | Units Under 1000 |
+| Filteration | Filteration |
 |:---:|:---:|
-| <img src="docs/screenshots/home_light.png" width="250"> | <img src="docs/screenshots/home3_light.png" width="250"> |
+| <img src="docs/screenshots/filter2_dark.png" width="250"> | <img src="docs/screenshots/filter2_light.png" width="250"> |
 
 ---
 
@@ -224,32 +224,47 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 <p align="center">
   <img src="docs/screenshots/details1_dark.png" width="250"> |
-<img src="docs/screenshots/details2_dark.png" width="250">
+<img src="docs/screenshots/details2_dark.png" width="250">|
+<img src="docs/screenshots/details3_light.png" width="250">
 </p>
 
 ---
 
-## Booking Flow
+## 📅 Booking Flow
 
-| Date Selection | Booking Summary |
-|:---:|:---:|
-| <img src="docs/screenshots/date_step_light.png" width="250"> | <img src="docs/screenshots/summary_step_dark.png" width="250"> |
+| Date Selection | Date Selection | Booking Summary |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/date_step_light.png" width="250"> | <img src="docs/screenshots/date_step2_dark.png" width="250"> | <img src="docs/screenshots/summary_step_dark.png" width="250"> |
 
-| Payment | Confirmation |
-|:---:|:---:|
-| <img src="docs/screenshots/payment_step2_dark.png" width="250"> | <img src="docs/screenshots/appointment_done_light.png" width="250"> |
+| Payment | Confirmation | Booking Status |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/payment_step2_dark.png" width="250"> | <img src="docs/screenshots/appointment_done_light.png" width="250"> | <img src="docs/screenshots/appointment_done2_dark.png" width="250"> |
 
 ---
 
 ## User Features
 
-| Favorites | My Appointments |
-|:---:|:---:|
-| <img src="docs/screenshots/fav_dark.png" width="250"> | <img src="docs/screenshots/all_appointments_dark.png" width="250"> |
+## ❤️ Favorites
 
-| Profile | Dark Mode |
-|:---:|:---:|
-| <img src="docs/screenshots/profile_light.png" width="250"> | <img src="docs/screenshots/theme_light.png" width="250"> |
+| Empty State | Loading State | Favorites List |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/fav_empty.png" width="250"> | <img src="docs/screenshots/fav_loading.png" width="250"> | <img src="docs/screenshots/fav_dark.png" width="250"> |
+
+---
+
+## 📋 My Appointments
+
+| All Appointments | Completed | Cancelled |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/all_appointments_dark.png" width="250"> | <img src="docs/screenshots/my_appointments_completed_dark.png" width="250"> | <img src="docs/screenshots/my_appointments_canceld_light.png" width="250"> |
+
+---
+
+## 👤 Profile
+
+| Profile | Edit Profile | Theme |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/profile_light.png" width="250"> | <img src="docs/screenshots/edit_profile_light.png" width="250"> | <img src="docs/screenshots/theme_light.png" width="250"> |
 
 ---
 
