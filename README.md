@@ -251,7 +251,7 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ### 🔎 Filtering
 
-<p align="center">
+<p>
   <img src="docs/screenshots/filter1_light.png" width="250">
   <img src="docs/screenshots/filter_dark.png" width="250">
   <img src="docs/screenshots/filter3_light.png" width="250">
@@ -261,7 +261,7 @@ Marsa focuses on providing a clean, responsive, and consistent mobile experience
 
 ## 🏡 Unit Details
 
-<p align="center">
+<p>
   <img src="docs/screenshots/details1_dark.png" width="250">
   <img src="docs/screenshots/details2_dark.png" width="250">
   <img src="docs/screenshots/details3_light.png" width="250">
