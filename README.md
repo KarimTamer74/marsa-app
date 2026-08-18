@@ -1,5 +1,3 @@
-# ⚓ Marsa
-
 <p align="center">
   <img src="docs/screenshots/marsa_app_icon.png" width="120" alt="Marsa App Icon">
 </p>
@@ -28,7 +26,7 @@
   <a href="#-author">👨‍💻 CONTACT</a>
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart">
   <img src="https://img.shields.io/badge/Clean%20Architecture-1A435E?style=flat-square" alt="Clean Architecture">
@@ -576,7 +574,7 @@ This allows eligible Flutter code changes to be delivered through patches withou
 
 Flutter Developer
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/KarimTamer74">
     <img src="https://img.shields.io/badge/GitHub-KarimTamer74-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
