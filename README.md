@@ -28,14 +28,13 @@
   <a href="#-author">👨‍💻 CONTACT</a>
 </p>
 
-<p align="center">
-
-![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Cubit](https://img.shields.io/badge/State%20Management-Cubit%20%2F%20BLoC-6C63FF?style=flat-square)
-![Dio](https://img.shields.io/badge/API-Dio-00A98F?style=flat-square)
-![Shorebird](https://img.shields.io/badge/OTA-Shorebird-00A86B?style=flat-square)
-
+<p>
+  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart">
+  <img src="https://img.shields.io/badge/Clean%20Architecture-1A435E?style=flat-square" alt="Clean Architecture">
+  <img src="https://img.shields.io/badge/Cubit%20%2F%20BLoC-6C63FF?style=flat-square" alt="Cubit BLoC">
+  <img src="https://img.shields.io/badge/Dio-00A98F?style=flat-square" alt="Dio">
+  <img src="https://img.shields.io/badge/Shorebird-OTA%20Updates-1D9E75?style=flat-square" alt="Shorebird">
 </p>
 
 <p align="center">
