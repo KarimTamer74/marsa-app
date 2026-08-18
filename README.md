@@ -4,20 +4,50 @@
   <img src="docs/screenshots/marsa_app_icon.png" width="120" alt="Marsa App Icon">
 </p>
 
+<h1 align="center">
+  ⚓ Marsa
+</h1>
+
 <h3 align="center">
-  A modern Flutter booking platform for discovering and reserving vacation units.
+  Discover, book, and manage your vacation stays — all in one place.
 </h3>
 
 <p align="center">
-  Flutter • Dart • Clean Architecture • BLoC/Cubit • REST API
+  Flutter • Dart • Clean Architecture • Cubit • REST API • Shorebird
 </p>
 
 <p align="center">
-  <a href="#-screenshots">📸 View Screenshots</a>
+  <a href="#-features">✨ FEATURES</a>
   &nbsp; • &nbsp;
-  <a href="#-features">✨ Features</a>
+  <a href="#-screenshots">📸 SCREENSHOTS</a>
   &nbsp; • &nbsp;
-  <a href="#-architecture">🏗 Architecture</a>
+  <a href="#-architecture">🏗 ARCHITECTURE</a>
+  &nbsp; • &nbsp;
+  <a href="#-tech-stack">🛠 TECH STACK</a>
+  &nbsp; • &nbsp;
+  <a href="#-author">👨‍💻 CONTACT</a>
+</p>
+
+<p align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Cubit](https://img.shields.io/badge/State%20Management-Cubit%20%2F%20BLoC-6C63FF?style=flat-square)
+![Dio](https://img.shields.io/badge/API-Dio-00A98F?style=flat-square)
+![Shorebird](https://img.shields.io/badge/OTA-Shorebird-00A86B?style=flat-square)
+
+</p>
+
+<p align="center">
+  🏠 Unit Discovery
+  &nbsp; • &nbsp;
+  📅 Booking
+  &nbsp; • &nbsp;
+  💳 Payment
+  &nbsp; • &nbsp;
+  ❤️ Favorites
+  &nbsp; • &nbsp;
+  👤 Profile
 </p>
 
 ---
@@ -326,26 +356,60 @@ Each feature is organized around its own business responsibility, keeping the co
 
 ## 🛠 Tech Stack
 
-| Category | Technology |
-|:---|:---|
-| Framework | Flutter |
-| Language | Dart |
-| Architecture | Clean Architecture |
-| State Management | BLoC / Cubit |
-| Networking | Dio |
-| Dependency Injection | GetIt |
-| Local Storage | SharedPreferences |
-| Secure Storage | Flutter Secure Storage |
-| Serialization | JSON / JsonSerializable |
-| Functional Programming | Dartz |
-| Localization | Easy Localization |
-| Responsive UI | Flutter ScreenUtil |
-| UI Loading | Skeletonizer / Shimmer |
-| Calendar | Table Calendar |
-| Image Handling | Cached Network Image / Image Picker |
-| Navigation | Persistent Bottom Navigation Bar |
-| Animations | Flutter Animate / Animate Do / Lottie |
-| Release Updates | Shorebird |
+<p align="center">
+
+<img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+<img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+<img src="https://img.shields.io/badge/BLoC%20%2F%20Cubit-6C63FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Dio-00A98F?style=for-the-badge">
+<img src="https://img.shields.io/badge/GetIt-Dependency%20Injection-8E44AD?style=for-the-badge">
+<img src="https://img.shields.io/badge/Clean%20Architecture-1A435E?style=for-the-badge">
+
+</p>
+
+### 🏗 Architecture & State
+
+<p>
+<img src="https://img.shields.io/badge/Clean%20Architecture-1A435E?style=flat-square">
+<img src="https://img.shields.io/badge/BLoC%20%2F%20Cubit-6C63FF?style=flat-square">
+<img src="https://img.shields.io/badge/GetIt-Dependency%20Injection-8E44AD?style=flat-square">
+<img src="https://img.shields.io/badge/Dartz-Functional%20Programming-0D8ABC?style=flat-square">
+</p>
+
+### 🌐 Networking & Data
+
+<p>
+<img src="https://img.shields.io/badge/Dio-REST%20API-00A98F?style=flat-square">
+<img src="https://img.shields.io/badge/JSON-JsonSerializable-F39C12?style=flat-square">
+<img src="https://img.shields.io/badge/SharedPreferences-Local%20Storage-795548?style=flat-square">
+<img src="https://img.shields.io/badge/Flutter%20Secure%20Storage-Secure%20Storage-607D8B?style=flat-square">
+</p>
+
+### 🎨 UI & User Experience
+
+<p>
+<img src="https://img.shields.io/badge/ScreenUtil-Responsive%20UI-2196F3?style=flat-square">
+<img src="https://img.shields.io/badge/Skeletonizer-Loading-607D8B?style=flat-square">
+<img src="https://img.shields.io/badge/Shimmer-Loading-9C27B0?style=flat-square">
+<img src="https://img.shields.io/badge/Cached%20Network%20Image-Images-009688?style=flat-square">
+<img src="https://img.shields.io/badge/Easy%20Localization-i18n-FF9800?style=flat-square">
+</p>
+
+### 🧩 Features & Utilities
+
+<p>
+<img src="https://img.shields.io/badge/Table%20Calendar-Calendar-3F51B5?style=flat-square">
+<img src="https://img.shields.io/badge/Image%20Picker-Image%20Upload-795548?style=flat-square">
+<img src="https://img.shields.io/badge/Persistent%20Bottom%20Nav-Navigation-1A435E?style=flat-square">
+<img src="https://img.shields.io/badge/Lottie-Animations-00BFA5?style=flat-square">
+<img src="https://img.shields.io/badge/Flutter%20Animate-Animations-E91E63?style=flat-square">
+</p>
+
+### 🚀 Release & Updates
+
+<p>
+<img src="https://img.shields.io/badge/Shorebird-OTA%20Updates-00A86B?style=for-the-badge">
+</p>
 
 ---
 
@@ -492,28 +556,20 @@ This allows eligible Flutter code changes to be delivered through patches withou
 
 ## 🗺 Roadmap
 
-### Completed
-
-- [x] Authentication
-- [x] Home & unit discovery
-- [x] Unit details
-- [x] Favorites
-- [x] Multi-step booking flow
-- [x] Payment receipt upload
-- [x] Booking status tracking
-- [x] Profile management
-- [x] Arabic / English localization
-- [x] Light / Dark theme
-- [x] Skeleton & shimmer loading
-- [x] Shorebird integration
-
-### Planned
-
-- [ ] Push notifications
-- [ ] Additional payment integrations
-- [ ] Further performance improvements
-- [ ] Google Play release
-- [ ] Apple App Store release
+| Completed | Planned |
+|:---|:---|
+| ✅ Authentication | 🔜 Push notifications |
+| ✅ Home & unit discovery | 🔜 Additional payment integrations |
+| ✅ Unit details | 🔜 Further performance improvements |
+| ✅ Favorites | 🔜 Google Play release |
+| ✅ Multi-step booking flow | 🔜 Apple App Store release |
+| ✅ Payment receipt upload | |
+| ✅ Booking status tracking | |
+| ✅ Profile management | |
+| ✅ Arabic / English localization | |
+| ✅ Light / Dark theme | |
+| ✅ Skeleton & shimmer loading | |
+| ✅ Shorebird integration | |
 
 ## 👨‍💻 Author
 
