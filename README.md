@@ -23,7 +23,7 @@
   &nbsp; • &nbsp;
   <a href="#-tech-stack">🛠 TECH STACK</a>
   &nbsp; • &nbsp;
-  <a href="#-author">👨‍💻 CONTACT</a>
+  <a href="https://www.linkedin.com/in/karim-tamer74">👨‍💻 CONTACT</a>
 </p>
 
 <p align="center">
