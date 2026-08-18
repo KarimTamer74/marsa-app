@@ -11,10 +11,6 @@
 </h3>
 
 <p align="center">
-  Flutter • Dart • Clean Architecture • Cubit • REST API • Shorebird
-</p>
-
-<p align="center">
   <a href="#-features">✨ FEATURES</a>
   &nbsp; • &nbsp;
   <a href="#-screenshots">📸 SCREENSHOTS</a>
